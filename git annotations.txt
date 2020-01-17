@@ -1,0 +1,22 @@
+@annotations Git
+
+Basic Commands
+
+working directory> Donde voy a trabajar con mis archivos
+staging area> Es donde voy agregando los archivos para el guardado en git *multiples cambios version1,2,3
+repository>Cuando ya se decidio guardar los cambios a traves de git commit pasamos a un repository
+
+*git init
+    > Decirle a git que vamos a crear un proyecto nuevo(o simplemente decir que vas integrar git a un proyecto)
+git add <file>
+    > Pasar los archivos del working directory al staging area
+git status
+    > verificar el status de mis archivos, si estan en working directory o staging area
+git commit
+    > pasar del staging area al repository tomar un snapshot (primer foto de la primer version de tu codigo)
+git push
+    > subir a un remote repository
+git pull
+    > si estoy trabajando con multiples desarrolladores, get los cambios que han realizado 
+git clone
+    > realiza una copia desde el servidor central desde donde este el codigo a tu computadora para comenzar a trabajar
